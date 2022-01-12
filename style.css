@@ -1,4 +1,63 @@
-body {background-color:tan;}
-h1{color:green;}
 
-
+body{
+    background-color: black;
+    align-content: center;
+    max-width: 500px;
+    padding-left: 500px;
+}
+h1{
+    color: rgba(128, 128, 128, 0.884);
+    text-align: left;
+    padding-left: 15px;
+    margin: 12px;
+    border-left: 12PX;
+    font-family:Tahoma, sans-serif ;
+}
+div.body{
+   margin-left: 1px;
+    border-radius: 20px;
+    background-color: white;
+   
+}
+div.main{
+    border-radius: 20px;
+    width: 700px;
+    height: auto;
+    background-color: white;
+    
+}
+div#output{
+    text-align: center;
+}
+#copyright{
+padding-left: 10px;
+}
+label{
+    padding-left: 95px;
+    margin-right: 20px;
+    line-height: 25px;
+}
+button{
+    margin-top: 10px;
+    margin-left: 95px;
+    margin-right: 10px;
+   
+}
+p{
+    text-align: left;
+    padding-left: 85px;
+    line-height: 0px;
+    margin-left: 10px;
+}
+div#copyright{
+    text-align: left;
+}
+#amount{
+    margin-left: 50px;
+}
+#years{
+margin-left: 25px;
+}
+#interest{
+    margin-left: 20px;
+}

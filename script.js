@@ -12,6 +12,8 @@ document.querySelector('#compute').addEventListener('click', () => {
         alert("please enter a valid year input");
     } else if (Number.isNaN(amount)) {
         alert("please enter a valid amount")
+    }else if(amount<=0){
+        alert("Please Enter a Positive Number")
     }
     else {
         const output = document.querySelector('#output');

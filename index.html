@@ -1,16 +1,43 @@
+<!DOCTYPE html>
 <html>
-    <head>
-    <script src="script.js"></script>
+
+<head>
+    <title>Sky dev </title>
     <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>Simple Interest Calculator</h1>
+    <script defer src="javascript.js"></script>
+</head>
 
-        Amount <input type="number"  id="principal">  <br/>
-        Rate <input type="number"  id="rate">  <br/>
-        No. of Years <input type="number"  id="years">  <br/>
-        Interest : <span id="result"></span><br>
+<body>
+    <div class="main">
+        <div class="body">
+            <br>
+            <h1>Simple Interest Calculator</h1>
 
-        <button onclick="compute()">Compute</button>
-    </body>
+            <label for="amount">Amount</label>
+                <input type="number" name="amount" id="amount" min="1" max=10000000>
+            
+            <!-- <br> -->
+            <br>
+            <label for="interest_rate">Interest Rate</label>
+                <input type="range" name="interest" id="interest" min="1" max="24" step="0.01" value="1">
+                <span id="interest_rate"></span>
+            
+            <!-- <br> -->
+            <br>
+            <label for="no_of_years">No.of.Years </label>
+                <input type="number" name="years" id="years" min="1" max="30">
+           
+            <!-- <br> -->
+            <br>
+            <button id="compute">Compute Interest</button>
+        </div>
+        <div id="output"></div>
+        <div id='copyright'> <span class="rc-GlobalFooter_copyright-row_text rc-GlobalFooter_copyright_col">©Everyone
+                Can Get Rich</span>
+        </div>
+        <br>
+    </div>
+</body>
+
+</html>
 </html>
